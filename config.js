@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "2349013432338; Opaksfire"
+const ownervb = process.env.OWNERS || "923318086563; KING"
 
 
 const ownerlist = ownervb.split(';');
@@ -69,7 +69,7 @@ global.APIKeys = {
 }
 
 // Sticker WM
-global.botname = process.env.BOTNAME
+global.botname = process.env.KING_BOT
 global.premium = 'false'
 global.packname = 'FIRE MD'
 global.author = 'OPAKSFIRE'
@@ -82,12 +82,12 @@ global.fgpyp = 'https://youtube.com/'
 global.fglog = 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg'
 global.thumb = fs.readFileSync('./Assets/fire.jpg')
 
-global.wait = '*🕑 _processing..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*🕑 ☠️_processing..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '🕑'
 global.dmoji = '🤭'
 global.done = '✅'
-global.error = '❌'
-global.xmoji = '🔥'
+global.error = '☠️'
+global.xmoji = '☠️'
 
 global.multiplier = 69
 global.maxwarn = '3'
